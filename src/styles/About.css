@@ -1,10 +1,24 @@
+/* Header style */
+.header {
+  font-size: x-large; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #03045e;
+  text-align: center;
+  margin-bottom: 20px; /* Add some space below the header */
+}
+
+/* About section */
 .about {
   width: 100%;
   height: 90vh;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(to bottom, #03045e, #4169e1);
+  font-size: large;
+  color: white;
 }
 
+/* Top section */
 .aboutTop {
   width: 100%;
   height: 45%;
@@ -14,6 +28,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+/* Bottom section */
 .aboutBottom {
   display: flex;
   flex-direction: column;
@@ -22,16 +37,19 @@
   margin-top: 50px;
 }
 
+/* Text in the bottom section */
 .aboutBottom p {
-  width: 1200px;
+  max-width: 90%; /* Adjust width as needed */
+  font-size: larger;
+  color: white;
+  line-height: 2; /* Increase line height for better readability */
 }
 
+/* Header in the bottom section */
 .about .aboutBottom h1 {
-  font-weight: 400;
-  font-size: 70px;
-  color: black;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  transform: translateY(-40px);
+  font-size: xx-large; /* Increase font size */
+  font-weight: 900;
+  color: white;
+  margin-bottom: 20px; /* Add some space below the header */
+  text-align: center; /* Center align the header */
 }
